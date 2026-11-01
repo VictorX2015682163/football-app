@@ -1,0 +1,97 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "Soccer Home"
+			}
+		},
+		{
+			"path": "pages/training/index",
+			"style": {
+				"navigationBarTitleText": "训练中心"
+			}
+		},
+		{
+			"path": "pages/match/index",
+			"style": {
+				"navigationBarTitleText": "赛事中心"
+			}
+		},
+		{
+			"path": "pages/academy/index",
+			"style": {
+				"navigationBarTitleText": "足球技术学院"
+			}
+		},
+		{
+			"path": "pages/health/index",
+			"style": {
+				"navigationBarTitleText": "健康与营养"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人档案"
+			}
+		},
+		{
+			"path": "pages/community/index",
+			"style": {
+				"navigationBarTitleText": "球员社区"
+			}
+		},
+		{
+			"path": "pages/match-experience/index",
+			"style": {
+				"navigationBarTitleText": "比赛日体验"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Soccer App",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#3CB371",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home_active.png"
+			},
+			{
+				"pagePath": "pages/training/index",
+				"text": "训练",
+				"iconPath": "static/icons/train.png",
+				"selectedIconPath": "static/icons/train_active.png"
+			},
+			{
+				"pagePath": "pages/match/index",
+				"text": "赛事",
+				"iconPath": "static/icons/match.png",
+				"selectedIconPath": "static/icons/match_active.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的",
+				"iconPath": "static/icons/user.png",
+				"selectedIconPath": "static/icons/user_active.png"
+			},
+			{
+				"pagePath": "pages/community/index",
+				"text": "社区",
+				"iconPath": "static/icons/chat.png",
+				"selectedIconPath": "static/icons/chat_active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
